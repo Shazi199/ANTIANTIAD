@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         ANTI ANTIAD
 // @namespace    https://github.com/Shazi199/
-// @version      0.0.3
-// @description  Unlock MHXG WIKI's right click and select.
+// @version      0.0.4
+// @description  ANTI ANTIAD
 // @author       Shazi199
 // @license      MIT License
 // @match        http://www.ruanyifeng.com/blog/*
@@ -14,6 +14,6 @@
     'use strict';
 
     if(window.checker){
-        window.checker=function(){};
+        $(".entry-sponsor").removeClass("entry-sponsor");
     }
 })();
